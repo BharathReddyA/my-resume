@@ -1,0 +1,93 @@
+.pro-pic {
+  border-radius: 100%;
+  height: 400px;
+  width: 400px;
+  box-shadow: 0px 10px 20px 0px #82efee;
+}
+.pro-pic:hover {
+  border: #82efee;
+  animation: pro-pic-anim 3s infinite;
+}
+
+@keyframes pro-pic-anim {
+  0% {
+    box-shadow: 5px 0px 10px 0px #2fbad1;
+  }
+  25% {
+    box-shadow: 0px 5px 10px 0px #2fbad1;
+  }
+  75% {
+    box-shadow: -5px 0px 10px 0px
+      #2fbad1;
+  }
+  90% {
+    box-shadow: 0px -5px 10px 0px #2fbad1;
+  }
+  100% {
+    box-shadow: 5px 0px 10px 0px #2fbad1;
+  }
+}
+
+.intro-text {
+  margin-top: 70px !important;
+  font-size: 60px;
+}
+
+.intro-sec-text {
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.resume-btn {
+  background-color: #f8ca95;
+  color: #ffffff;
+  padding: 50px;
+  margin-top: 100px;
+  box-shadow: 0px 10px 20px 0px #f3d2ac;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.resume-btn:hover {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 30px;
+}
+
+.blog-btn {
+  background-color: #fa9c91;
+  color: #ffffff;
+  padding: 50px;
+  margin-top: 100px;
+  box-shadow: 0px 10px 20px 0px #f3b8b1;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.blog-btn:hover {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 30px;
+}
+
+.contact-btn {
+  background-color: #a99ad3;
+  color: #ffffff;
+  padding: 50px;
+  margin-top: 100px;
+  box-shadow: 0px 10px 20px 0px #cecbd6;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.contact-btn:hover {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 30px;
+}
